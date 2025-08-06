@@ -1,6 +1,6 @@
 import { ReactNode, useState } from 'react';
 import styles from './Post.module.css';
-import PostComments from './PostComments';
+import PostComments from '../PostComments/PostComments';
 
 type Props = {
     children: ReactNode;
