@@ -1,3 +1,4 @@
+/* Estilos do Post - EXATAMENTE como você tinha */
 .post {
     background-color: #fff;
     padding: 16px;
@@ -10,51 +11,26 @@
     display: block;
 }
 
-.post-text,
-.post-comments-form-textarea {
-    color: #333;
+.post-text {
+    color: #333; /* Cor original do texto */
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 24px;
 }
 
+/* NOVO: Estilo para o fallback da imagem */
+.fallback {
+    background-color: #f5f5f5;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+/* ESTILOS DOS COMENTÁRIOS (adicione se necessário) */
 .post-comments {
-    
-}
-
-.post-comment {
-    color: #444;
-    font-size: 12px;
-    line-height: 20px;
-    background-color: #ffff9f;
-    padding: 8px 16px;
-    border-radius: 8px;
-    margin-bottom: 8px;
-}
-
-.post-comment-content {
-    font-style: italic;
-}
-
-.post-comments-form {
     margin-top: 16px;
-    text-align: right;
-}
-
-.post-comments-form-textarea {
-    display: block;
-    resize: none;
-    width: 100%;
-    margin-bottom: 8px;
-    padding: 8px 16px;
-}
-
-.post-comments-form-button {
-    padding: 8px 16px;
-    font-weight: bold;
-    border-radius: 8px;
-    border: none;
-    background-color: #27ae60;
-    color: #eee;
-    cursor: pointer;
+    border-top: 1px solid #eee;
+    padding-top: 16px;
 }
